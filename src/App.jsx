@@ -7,7 +7,7 @@ const App = () => {
   const [newhours, setHours] = useState(0);
 
   useEffect(() => {
-    const countDownDate = new Date("Mar 10, 2024 11:00:00").getTime();
+    const countDownDate = new Date("Mar 10, 2024 12:00:00").getTime();
 
     const countdownFunction = () => {
       const now = new Date().getTime();
